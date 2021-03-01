@@ -24,3 +24,7 @@ There are only three rules that determine the state of the universe after each g
 ## format
 
         clang-format -i -style=file life.c universe.c
+        
+## command line options
+
+        [t] to initialize a toroidal [i] specify txt files after -i a file of txt samples are include [s] silence the ncurser option
