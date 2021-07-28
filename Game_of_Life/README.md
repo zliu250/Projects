@@ -1,4 +1,4 @@
-# Assignment 2
+# Game of life
 
 This program simulates conway's game of life in C programming
 The Game of Life should be played on a potentially infinite, two-dimensional (2-D) grid of cells that represents a universe. 
