@@ -1,4 +1,4 @@
-# Assignment 5
+# Sorting algorithms
 
 This program builds four comparison-based sorting algorithms: bubblesort, shellsort, quicksort, and heap sort. The program use a pseudorandom generated array to showcase each sorting. The array has 100 elements default and the elements are within the range of 30bits. The program also counts how many comparisons and moves are made with each sorting algorithm.
 
