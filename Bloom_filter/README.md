@@ -1,4 +1,4 @@
-# Assignment 6
+# Bloom filter and Hash table
 
 This program serves as the Great Fire Wall of Santa Cruz. In order to promote virtue and prevent vice, and to preserve social cohesion and discourage unrest, we have decided that the Internet content must be filtered so that the beloved children are not corrupted through the use of unfortunate, hurtful, offensive, and far too descriptive language. In detail, we are applying a bloom filter with the support of hash table of linked lists and filter out these "badspeaks" and "oldspeaks" to purify the environment in Santa Cruz. The bloom filter is composed and accessed by a bitvector.
 
