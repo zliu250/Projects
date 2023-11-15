@@ -1,6 +1,6 @@
 # Recursion algorithm
 
-This program an image in 2d int array form. Given the boundary and the fill number, the 2d array will recursively fill out the array with in the boundary.
+This program fills an image in 2d int array form. Given the boundary and the fill number, the 2d array will recursively fill out the array within the boundary.
 
 ## build
     make all
