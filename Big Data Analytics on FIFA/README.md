@@ -35,6 +35,20 @@ The dataset presents a detailed schema representing professional soccer players 
 
 > **Note**: Some features currently contain bad or null values, preventing the application of certain constraints.
 
+## Dataset Versions
+
+### Base Version
+Excludes 'overall', 'wage_eur', and 'value_eur' for a more challenging model training scenario.
+
+### Version 2 (Original Version)
+Includes all features, providing a comprehensive dataset for analysis.
+
+### Version 3 (Cloud Version)
+Tailored for cloud-based analytics with specific preprocessing adaptations.
+
+## Data Pipeline
+A new script automates the preprocessing of the raw dataset, making it ready for model use. This pipeline includes data cleaning, feature selection, scaling, imputation, and more.
+
 ## Data Engineering
 
 ### Unused Features
