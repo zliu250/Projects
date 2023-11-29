@@ -47,7 +47,7 @@ Includes all features, providing a comprehensive dataset for analysis.
 Tailored for cloud-based analytics with specific preprocessing adaptations.
 
 ## Data Pipeline
-A new script automates the preprocessing of the raw dataset, making it ready for model use. This pipeline includes data cleaning, feature selection, scaling, imputation, and more.
+We include a script automates the preprocessing of the raw dataset, making it ready for model use. This pipeline includes data cleaning, feature selection, scaling, imputation, and more.
 
 ## Data Engineering
 
