@@ -35,12 +35,12 @@ The dataset presents a detailed schema representing professional soccer players 
 
 > **Note**: Some features currently contain bad or null values, preventing the application of certain constraints.
 
-## Dataset Versions
+## Notebook Versions
 
 ### Base Version
 Excludes 'overall', 'wage_eur', and 'value_eur' for a more challenging model training scenario.
 
-### Version 2 (Original Version)
+### Version 2 (With pgAdmin)
 Includes all features, providing a comprehensive dataset for analysis.
 
 ### Version 3 (Cloud Version)
