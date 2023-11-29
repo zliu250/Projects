@@ -1,6 +1,6 @@
 # FIFA Players Dataset Model Training
 This data is [FIFA 22 Complete Player Dataset](https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset)  
-Only Men Player Data across 2015 - 2022 are used to conduct the training. The **data** folder contains all the data used. We will be predicting the **overall** of player.
+Only Men Player Data across 2015 - 2022 are used to conduct the training. The **data** folder contains all the data used. We will be predicting the **overall** value of player.
 
 ## Dataset Schema Introduction
 
