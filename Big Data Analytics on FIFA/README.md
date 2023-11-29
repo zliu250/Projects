@@ -38,7 +38,7 @@ The dataset presents a detailed schema representing professional soccer players 
 ## Notebook Versions
 
 ### Base Version
-Excludes 'potential', 'wage_eur', and 'value_eur' for a more challenging model training scenario.
+Excludes 'potential', 'wage_eur', and 'value_eur' for a more challenging model training scenario. These three features are directly related to the 'overall' value and therefore we exclude them to look for a more general model.
 
 ### Version 2 (With pgAdmin)
 Includes all features, providing a comprehensive dataset for analysis.
