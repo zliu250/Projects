@@ -173,16 +173,16 @@ Download this repository to your local environment in the same folder and run da
 Make sure you have all the necessary libraries and dependencies for pyspark, pytorch and tensorflow. #
 
 ## Running Process
-- Task I and II:
+- Task I and II (Data Ingestion and analysis):
 These two tasks are done within data_analysis.ipynb. To start off, make sure you have the data folder in the same directory with your python notebooks. Then run through the code. When you get to the prepare truncated data section, you can uncomment them if you want a truncated version data to upload to cloud later on. For the postgres ingestion part, remeber to switch to your own database properties. Also uncomment the writing section if you haven't written to the database. Lastly, for each query, remember to input a numerical number then the query will output the result.
 
-- Task III Spark Version:
+- Task III (Model training and data engineering) Spark Version:
 The spark version is done with the notebook specified as data_engineering_pyspark. Create a spark session, then change to your own database properties to read the data in. When you get to the correlation analysis part, you might need to wait a minute or two due to the large amount of data we are dealing with. If you come to a time out error with your spark session, truncate your data and restart your kernel. When you get to the ingesting Engineered Data into Postgres part, remember to change the properties to your own. This part will be needed for the pytorch version because we are skipping the data cleaning and preprocessing steps in pytorch. Lastly, when training with randomforest regressor, you might need to wait a few minutes. As previously mention, if you come to a timeout or connection loss with pyspark, truncate your dataset and restart the kernel.
 
-- Task III Pytorch Version:
+- Task III (Model training and data engineering) Pytorch Version:
 For this version, when reading from the database, remember to have your own properties ready. After reading in the data, there are some commented code which is for cloud version. You can disregard them if you are not planning to run the code on the cloud. After that you can simply run through the code.
 
-- Task IV Cloud version:
+- Task IV (Combine Task I, II and III) Cloud version:
 There are some slight changes in the cloud version of the previous three tasks. Instead of reading from local directory or postgres database, we are reading from the cloud storage in GCP. You will need to create a bucket and upload the csv or truncated version data I previously mentioned. In addition when reading from bucket, you will need you own bucket path instead of mine. For the cloud version, I am using the n2d-standard-2 machine with 2 worker nodes. 
 
 
