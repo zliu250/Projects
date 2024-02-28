@@ -20,14 +20,19 @@ except Exception as e:
     # Terminate the program
     exit()
     
-llm_bison = VertexAI(
-    model_name="text-bison@001",
-    max_output_tokens=256,
-    temperature=0.2,
-    top_p=0.8,
-    top_k=40,
-    verbose=True,
-)
+try:
+    llm_bison = VertexAI(
+        model_name="text-bison@001",
+        max_output_tokens=256,
+        temperature=0.2,
+        top_p=0.8,
+        top_k=40,
+        verbose=True,
+    )
+except Exception as e:
+    print(f"Encountered error while initializing LLM Bison. Error code: {e}")
+    # Terminate the program
+    exit()
 
 llm_gemini = VertexAI(
     model_name="gemini-1.0-pro-vision",
