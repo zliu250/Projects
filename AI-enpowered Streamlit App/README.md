@@ -25,6 +25,6 @@ When the user input is incomplete (e.g., "pitts" for "Pittsburgh"), both models 
 
 For incorrect input, `text-bison@001` has a lower performance than `gemini pro 1.0`. While `gemini pro 1.0` can often indicate that the input is incorrect, `text-bison@001` has a higher rate of hallucinations or adding random words to the output.
 
-## Viedoe Demonstration
+## Video Demonstration
 
 https://cmu.box.com/s/35kvtb5eb1aliiu1rr1c8y1zerirmiu5
